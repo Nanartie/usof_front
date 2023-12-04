@@ -1,0 +1,56 @@
+.comm_likes_dis {
+    display: flex;
+}
+
+.coment_like_block {
+    display: flex;
+}
+
+.coment_dislike_block {
+    display: flex;
+}
+
+.coment_dislike_button {
+    margin-left: 2vw;
+}
+
+.coment_like_button, .coment_dislike_button {
+    width: 2.5vw;
+    height: 2.5vw;
+    border: none;
+    border-radius: 20%;
+    padding-top: .3vh;
+    margin-right: .5vw;
+}
+
+.coment_dislike_button {
+    background-color: #89ABF2;
+}
+
+.coment_like_button {
+    background-color:#56aa56;
+}
+
+.coment_dislike_button:hover {
+    background-color: #4163ac;
+}
+
+.coment_like_button:hover {
+    background-color:#338633;
+}
+
+.coment_dislike_button.sat {
+    background-color: #4163ac;
+}
+
+.coment_like_button.sat {
+    background-color:#89ABF2;
+}
+
+.coment_dislike_button.sat:hover {
+    background-color: #00305D;
+}
+
+.coment_like_button.sat:hover {
+    background-color:#4163ac;
+}

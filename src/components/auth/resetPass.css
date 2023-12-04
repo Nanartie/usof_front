@@ -1,0 +1,62 @@
+.reset_pass_conf {
+    display: flex;
+    flex-direction: column;
+    background-color: #003200;
+    min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.form_conf_ress_div {
+    text-align: center;
+    background-color: #F6EDD9;
+    border-radius: 35px;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_label_conf {
+    font-size: 25px;
+    font-weight: 600;
+    color: #003200;
+}
+
+.form_div_for_inpt {
+    text-align: left;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.but_for_confirm {
+    width: 338px;
+    height: 7vh;
+    border: 3px solid #3d913d;
+    border-radius: 5px;
+    background-color: #3d913d;
+    font-size: 18px;
+    color: #F6EDD9;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+.but_for_confirm:hover {
+    background-color: #89ABF2;
+    border: #89ABF2;
+}
+
+.title_reset_f {
+    font-size: 35px;
+    font-weight: 800;
+    color: #003200;
+}
+
+.inf_confirm_reset {
+    font-size: 25px;
+    font-weight: 600;
+    color:#3d913d;
+}

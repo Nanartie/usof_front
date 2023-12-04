@@ -1,0 +1,19 @@
+{
+    "short_name": "N-Gsof",
+    "name": "Nature Game sof",
+    "icons": [
+      {
+        "src": "about.png",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      }
+    ],
+    "start_url": "/start",
+    "display": "browser",
+    "background_color": "#9484C7",
+    "theme_color": {
+      "light": "#3C60FF",
+      "dark": "#3C60FF"
+    },
+    "scope": "/"
+  }

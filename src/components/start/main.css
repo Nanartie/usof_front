@@ -1,0 +1,117 @@
+.err_title_main {
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: #003200;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.err_title_main::after {
+    content: '';
+    position: absolute;
+    top: 32.7vh;
+    left: 48vw;
+    width: 2vw;
+    height: .9vh;
+    background: linear-gradient(to right, transparent, rgb(0, 160, 61), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.5s linear;
+  }
+
+  .err_title_main:hover::after {
+    transform: translateX(200%);
+  }
+
+  .desc_err_main, .provided_main {
+    font-size: 30px;
+    font-weight: 600;
+    color: #003200;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .provided_main {
+    text-decoration: none;
+    color: #56aa56; 
+    margin-top: 1.58vh;
+    margin-left: 1vw;
+  }
+
+  .provided_main::after {
+  background-color: #89ABF2;
+    display: block;
+    content: '';
+    height: 4px;
+    width: 0%;
+    transition: width .3s ease-in-out;
+    -webkit-transition:  width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+}
+
+.provided_main:hover::after {
+    width: 100%
+}
+
+.prvd_dec {
+  display: flex;
+  padding-left: 11vw;
+}
+
+.main_pic {
+  max-width: 20vw;
+  height: 300px;
+  margin-bottom: 1vh;
+  margin-left: 12vw;
+}
+
+.desc_err_fifty_main {
+  font-size: 30px;
+  font-weight: 600;
+  color: #56aa56;
+  font-family:'Courier New', Courier, monospace;
+  line-height: 3.5vh;
+}
+
+.desc_err_fifty_main::after {
+  background-color: #89ABF2;
+    display: block;
+    content: '';
+    height: 4px;
+    width: 100%;
+    transition: width .3s ease-in-out;
+    -webkit-transition:  width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+}
+
+.auth_form.sat {
+  background-color: #00305D;
+}
+
+.err_title_main.sat {
+  font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+  color: #00305D;
+}
+
+.err_title_main.sat::after {
+  background: linear-gradient(to right, transparent, #0e6bc2, transparent);
+}
+
+.desc_err_main.sat, .provided_main.sat {
+  font-size: 30px;
+  font-weight: 600;
+  color: #00305D;
+}
+
+.provided_main.sat {
+  margin-top: 1.58vh;
+    margin-left: 1vw;
+  color: #0b5497; 
+}
+
+.desc_err_fifty_main.sat {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0b5497;
+  line-height: 3.5vh;
+}

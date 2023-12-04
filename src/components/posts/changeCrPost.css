@@ -1,0 +1,156 @@
+.create_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #003200;
+    min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.create_wrapper {
+    margin-top: 2vh;
+    background-color: #F6EDD9;
+    border-radius: 20%;
+    padding: 3vh 1vw;
+    margin-bottom: 3vh;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.create_head {
+    font-size: 35px;
+    font-weight: 900;
+    color: #003200;
+}
+
+.inptPolya {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.mgr {
+    margin-right: .5vw;
+}
+
+.forPolya {
+    font-size: 25px;
+    font-weight: 600;
+    color: #003200;
+}
+
+.create_title {
+    border-radius: 5px;
+    border: solid 3px #003200;
+    padding: .9vh;
+    font-size: 20px;
+    margin-bottom: 4vh;
+    font-weight: 600;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: solid 3px #89ABF2;
+}
+
+.create_content {
+    border-radius: 5px;
+    border: solid 3px #003200;
+    padding: .9vh;
+    font-size: 20px;
+    margin-bottom: 4vh;
+    font-weight: 500;
+    width: 45vw;
+}
+
+.file_create {
+   background-color: #56aa56;
+   border: none;
+   padding: 1vh 1vw;
+   border-radius: 15px;
+   font-size: 18px;
+   color: #003200;
+   margin-right: 1vw;
+}
+
+.upldImg {
+    background-color: #89ABF2;
+    border: none;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #003200;
+}
+
+.upldImg:hover {
+    background-color: #5379ca;
+}
+
+.file_create:hover {
+    background-color: #3d913d;
+}
+
+.fl_name {
+    margin-top: 5vh;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 2vw;
+}
+
+.chs {
+    display: flex;
+    margin-bottom: 4vh;
+}
+
+.round_radio {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: solid 5px #3d913d;
+    margin-top: 2vh;
+}
+
+.round_radio:checked {
+    background: #5379ca;
+    border: solid 5px #5379ca;
+}
+
+.custom_radio {
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+}
+
+.radio_block {
+    display: flex;
+    
+}
+
+.radio_block_v {
+    flex: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.create_btn {
+    background-color: #3d913d;
+    border: none;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #F6EDD9;
+}
+
+.create_btn:hover {
+    background-color: #218321;
+}
+
+.category_create {
+    width: 20vw;
+}

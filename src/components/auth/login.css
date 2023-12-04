@@ -1,0 +1,127 @@
+.auth_form {
+    display: flex;
+    flex-direction: column;
+    background-color: #003200;
+    min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.div_for_log {
+    text-align: center;
+    background-color: #F6EDD9;
+    border-radius: 35px;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sigin_tit {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: #003200;
+}
+
+.inp_div {
+    text-align: left;
+    
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 2vh;
+}
+
+.forPolyaLog {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input {
+    border-radius: 5px;
+    border: solid 3px #003200;
+    padding: .9vh;
+    font-size: 20px;
+    margin-bottom: 1vh;
+    font-weight: 600;
+    width: 20vw;
+    height: 5vh;
+}
+
+input:hover {
+    outline: none;
+    border: solid 3px #89ABF2;
+}
+
+.btn_login {
+    background-color: #3d913d;
+    border: none;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #F6EDD9;
+    width: 10vw;
+    margin-left: 23vw;
+}
+
+.btn_login:hover {
+    background-color: #89ABF2;
+    color: #003200;
+}
+
+.reg_link {
+    color: #597ac0;
+    font-weight: 600;
+}
+
+.reg_link:hover {
+    color: #003200;
+}
+
+.err_div_login {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(197, 23, 23);
+}
+
+
+
+.auth_form.sat {
+    background-color: #00305D;
+}
+
+.sigin_tit.sat  {
+    color: #00305D;
+}
+
+input.sat  {
+    border: solid 3px #00305D;
+}
+
+.btn_login.sat  {
+    background-color: #89ABF2;
+}
+
+.btn_login.sat:hover {
+    background-color: #89ABF2;
+    color: #00305D;
+}
+
+.reg_link.sat  {
+    color: #597ac0;
+}
+
+.reg_link.sat:hover {
+    color: #00305D;
+}
+
+.err_div_login.sat  {
+    color: #00305D;
+}
+.forPolyaLog.sat {
+    font-size: 25px;
+    font-weight: 600;
+}

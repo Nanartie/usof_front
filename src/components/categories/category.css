@@ -1,0 +1,240 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #003200;
+    min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.category_wrapper {
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #F6EDD9;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.categ_title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #003200;
+}
+
+.category_desc {
+    font-size: 25px;
+    font-weight: 500;
+    color: #003200;
+}
+
+.post_for_cat {
+    margin-top: 6vh;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #F6EDD9;
+}
+
+.post_cat {
+    text-align: left;
+    background-color: #F6EDD9;
+    border-radius: 35px;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20%;
+    border: 2px solid #003200;
+    border-radius: 35px;
+}
+
+.post-title-text_cat {
+    color:  #003200;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+}
+
+.post-title-text_cat::after {
+    background-color: #89ABF2;
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0%;
+    transition: width .3s ease-in-out;
+    -webkit-transition:  width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+}
+
+.post-title-text_cat:hover::after {
+    width: 50%
+}
+
+.post-title-text_cat:hover {
+    color: #56aa56;
+}
+
+
+h3 {
+    margin-right: 0.5vw;
+    line-height: 0.4vh;
+    color: #56aa56;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.avtor_cat {
+    display: flex;
+}
+
+.post-author_cat {
+    line-height: 3.4vh;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #56aa56;
+}
+
+.post-author_cat:hover {
+    font-weight: 700;
+    color: #89ABF2;
+}
+
+.post-publish-date_cat {
+    line-height: 0.5vh;
+    color: #56aa56;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.bot-post_cat {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-likes_cat {
+    flex: 40%;
+}
+
+.avtor_btns_cat {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.redact_cat, .delB_cat {
+    border: none;
+    background-color: #89ABF2;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 6vw;
+    height: 3vh;
+    color: #F6EDD9;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 3vw;
+}
+
+.delB_cat {
+    background-color: #f14242;
+}
+
+.redact_cat:hover {
+    background-color: #5176c7;
+}
+
+.delB_cat:hover {
+    background-color: #b32828;
+}
+
+.confirmation-dialog {
+    color: #b32828;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 2vh;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: .3vh;
+    padding-bottom: 2.3vh;
+    border: solid 2px rgb(255, 43, 43);
+    background-color: #ffd4ce;
+}
+
+.yes, .cancel {
+    border: none;
+    background-color: #f14242;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 6vw;
+    height: 3vh;
+    color: #F6EDD9;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: .3vw;
+}
+
+.cancel {
+    background-color: #56aa56;
+}
+
+.yes:hover {
+    background-color: #fc7c7c;
+    color: #b32828;
+}
+
+.cancel:hover {
+    background-color: #7bcf7b;
+    color: #003200;
+}
+
+.posts-block_cat.sat {
+    background-color: #00305D;
+    min-height: 100vh;
+}
+
+.container-posts_cat.sat {    
+    background-color: #00305D;
+}
+
+.post-title-text_cat.sat {
+    color:  #00305D;
+}
+
+.post-title-text_cat.sat::after {
+    background-color: #89ABF2;
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0%;
+    transition: width .3s ease-in-out;
+    -webkit-transition:  width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+}
+
+.post-title-text_cat.sat:hover {
+    color: #89ABF2;
+}
+
+
+h3.sat {
+    color: #89ABF2;
+}
+
+.post-author.sat {
+    color: #89ABF2;
+}
+
+.post-author.sat:hover {
+    color: #37C6FF;
+}
+
+.post-publish-date.sat {
+    color: #89ABF2;
+}

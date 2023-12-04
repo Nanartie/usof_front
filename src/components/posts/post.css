@@ -1,0 +1,147 @@
+.postPic {
+    width: 20%;
+    height: auto;
+    border-radius: 5%;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.post_wrap_onl {
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;;
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #F6EDD9;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    box-sizing: border-box;
+}
+
+.body_wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: #003200;
+    min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.pst_title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    color: #003200;
+}
+
+.prof_pic_user {
+    max-width: 5vw;
+    height: 60px;
+    margin-bottom: 1vh;
+    border-radius: 50%;
+    margin-top: -2vh;
+}
+
+.post_user_inf {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.fle_inf {
+    display: flex;
+}
+
+.user_login {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #56aa56;
+    margin-top: .5vh;
+}
+
+.user_login:hover {
+    font-weight: 700;
+    color: #89ABF2;
+}
+
+.by_f {
+    font-size: 20px;
+    font-weight: 500;
+    color: #56aa56; 
+    margin-top: .5vh;
+    margin-left: 35%;
+    margin-right: 10%;
+}
+
+.da_ted {
+    font-size: 16px;
+    font-weight: 500;
+    color: #56aa56; 
+    margin-top: .8vh;
+}
+
+.by_f_coma {
+    font-size: 20px;
+    font-weight: 500;
+    color: #56aa56; 
+    margin-top: .5vh;
+    margin-left: 13%;
+    margin-right: 5%;
+}
+
+.postContent {
+    display: flex;
+}
+
+.content_post {
+    width: 50vw;
+}
+
+.likes_div {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.class_likes_n {
+    display: flex;
+}
+
+.comm_post_div {
+    width: 60%;
+    margin-left: 20%;
+    background-color: #F6EDD9;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+
+
+.body_wrap.sat {
+    background-color: #00305D;
+}
+
+.pst_title.sat {
+    color: #00305D;
+}
+
+.user_login.sat {
+    color: #89ABF2;
+}
+
+.user_login.sat:hover {
+    color: #37C6FF;
+}
+
+.by_f.sat {
+    color: #89ABF2; 
+}
+
+.da_ted.sat {
+    color: #89ABF2; 
+}
+
+.by_f_coma.sat {
+    color: #89ABF2; 
+
+}

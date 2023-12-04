@@ -1,0 +1,68 @@
+.err_title_about {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: #003200;
+}
+
+.block_s {
+    display: flex;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1.5vh;
+}
+
+.div_for_err_f {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.provided {
+    margin-top: 1.6vh;
+    line-height: 2.8vh;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.block_s_f {
+    display: flex;
+    border-radius: 10px;
+    width: 45%;
+    margin-left: 27%;
+    padding-left: 1.5vw;
+    margin-bottom: 1vh;
+}
+
+.block_s_t {
+    display: flex;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    padding-left: 1.5vw;
+    margin-bottom: 1.5vh;
+}
+
+.block_s_d {
+    display: flex;
+    border-radius: 10px;
+    width: 55%;
+    margin-left: 25%;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.for_inn {
+    color: #597ac0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.hrf_div {
+    color: #597ac0;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 1.3vh;
+    margin-left: .5vw;
+}

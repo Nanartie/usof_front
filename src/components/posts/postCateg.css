@@ -1,0 +1,48 @@
+.each-category {
+    margin-bottom: 1vh;
+}
+
+.categories {
+    display: block;
+    text-align: center;
+}
+
+.ctgL {
+    text-decoration: none;
+    color: #003200;
+    background-color:#89ABF2;
+    border: solid 1px #89ABF2;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 4vh;
+    width: 40px;
+    margin-right: -25px;
+}
+
+.ctgL:hover {
+    color: #89ABF2;
+    background-color: rgb(146, 250, 146);
+    border: solid 1px rgb(146, 250, 146);
+    border-radius: 15px;
+}
+
+.ctgL.sat {
+    text-decoration: none;
+    color: #00305D;
+    background-color:#89ABF2;
+    border: solid 1px #89ABF2;
+
+}
+
+.ctgL.sat:hover {
+    color: #00305D;
+    background-color: #37C6FF;
+    border: solid 1px #37C6FF;
+    border-radius: 15px;
+}
